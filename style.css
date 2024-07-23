@@ -24,14 +24,14 @@ body {
 .wrapper {
     width: 100%;
     height: 100px;
-    padding: 0px 10px 1000px;
+    padding: 0px 10px 650px;
     background-color: black;
     margin: auto;
     position: relative;
 }
 
 .wapper {
-    width: 1100px;
+    width: 1250px;
     margin: auto;
     position: relative;
 }
@@ -101,25 +101,24 @@ a.tbl-biru:hover {
     text-decoration: none;
 }
 
-.header-content {
+.header-contentss {
     position: absolute;
     top: 50%;
     bottom: 50%;
-    transform: translate(20%,15%);
+    transform: translate(25%,25%);
     text-align: center;
     margin-top: 1%;
     width: 920px;
-    margin-bottom: 100px;
 }
 
-.header-content h1 {
+.header-contentss h1 {
     font-size: 60px;
     line-height: 70px;
     font-weight: 600;
     font-family: 'comic sans ms'
 }
 
-.header-content h3 {
+.header-contentss h3 {
     font-weight: 400;
     margin-bottom: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -195,7 +194,7 @@ p {
     width: 100%;
     text-align: center;
     background-color:  rgb(118, 58, 28);
-    padding: 0px 0px 450px 0px;
+    padding: 10px 0px 100px 0px;
     background-size: cover;
     position: relative;
 }
@@ -226,4 +225,9 @@ p {
     font-family: 'comic sans ms';
     font-weight: bold;
     font-size: 20px;
+}
+
+@media screen and {max-width: 1000px;} {
+    .header, .wrapper, .wapper, .header-contents, .email-signup {width: 100%;
+    }
 }
